@@ -1,0 +1,23 @@
+  //Invoking Browser
+        // Chrome 
+        System.setProperty("webdriver.chrome.driver", "D:\\Training\\Selenium\\chromedriver.exe");  
+        WebDriver driver=new ChromeDriver();  
+
+
+       /*Firefox 
+         System.setProperty("webdriver.gecko.driver", "D:\\Training\\Selenium\\geckodriver.exe");
+         WebDriver driver1 = new FirefoxDriver();*/
+ 
+
+         /*Microsoft Edge
+         System.setProperty("webdriver.edge.driver", "D:\\Training\\Selenium\\msedgedriver.exe");
+         WebDriver driver2 = new EdgeDriver();*/
+ 
+         driver.get("https://rahulshettyacademy.com");
+         String title=driver.getTitle();
+         System.out.println(title);
+         driver.close();
+         //driver.quit();
+    }
+ 
+}
