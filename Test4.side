@@ -1,0 +1,248 @@
+{
+  "id": "cfca7bbe-9e90-40c0-afcc-278b1de1e402",
+  "version": "2.0",
+  "name": "Test4",
+  "url": "https://sreeleathersonline.com",
+  "tests": [{
+    "id": "d8d658f2-63d4-4317-b9d0-ee93bbe22305",
+    "name": "Test1",
+    "commands": [{
+      "id": "df5d18a0-accc-4690-9437-f084233c520b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cfc0be3-d086-44e8-9ef7-3737853166d2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "640x568",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33915383-4c7a-430d-a316-420d151b1e3b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tt-search > .tt-dropdown-toggle",
+      "targets": [
+        ["css=.tt-search > .tt-dropdown-toggle", "css:finder"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div/div/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "714b1f98-da49-46c3-94c6-4c35e85993ea",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tt-search > .tt-dropdown-toggle",
+      "targets": [
+        ["css=.tt-search > .tt-dropdown-toggle", "css:finder"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div/div/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "158a9670-f8ee-4050-a8e4-cd25cee1ecba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tt-search > .tt-dropdown-toggle",
+      "targets": [
+        ["css=.tt-search > .tt-dropdown-toggle", "css:finder"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div/div/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c86e9fa-57fa-42a9-a864-4a2fd49a8ab1",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.tt-search-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div/div/div/div[3]/div/div/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "mens foot wear"
+    }, {
+      "id": "082b6f84-75d0-4184-bd36-82c542ce3e98",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.tt-search-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div/div/div/div[3]/div/div/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "41119ff7-1b86-400c-b3c3-eebbf192b6a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tt-menu-toggle > svg",
+      "targets": [
+        ["css=.tt-menu-toggle > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6171721-ba20-4cf0-baaa-25f3f4b83907",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Register",
+      "targets": [
+        ["linkText=Register", "linkText"],
+        ["css=.external-item li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//li[@id='entrypoint-objects']/div/div/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/register')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bb1b56e-60df-4e27-82e9-e49492666433",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginInputName",
+      "targets": [
+        ["id=loginInputName", "id"],
+        ["name=customer[first_name]", "name"],
+        ["css=#loginInputName", "css:finder"],
+        ["xpath=//input[@id='loginInputName']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1b0ed9c-85a7-4640-a2f1-446aa351b7e4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8315db56-c62f-4bc2-af66-bbb09f723afc",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginInputName",
+      "targets": [
+        ["id=loginInputName", "id"],
+        ["name=customer[first_name]", "name"],
+        ["css=#loginInputName", "css:finder"],
+        ["xpath=//input[@id='loginInputName']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Mahi"
+    }, {
+      "id": "a178bad4-9bd0-44e4-9431-48f50a2b9320",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginInputEmail",
+      "targets": [
+        ["id=loginInputEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#loginInputEmail", "css:finder"],
+        ["xpath=//input[@id='loginInputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//form/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ac7824c-bd5a-47ca-aebd-7265affd6dcb",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginInputEmail",
+      "targets": [
+        ["id=loginInputEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#loginInputEmail", "css:finder"],
+        ["xpath=//input[@id='loginInputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//form/div[4]/input", "xpath:position"]
+      ],
+      "value": "123@gmail"
+    }, {
+      "id": "1ce5ab41-a12d-4305-af86-efde474204f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginInputPassword",
+      "targets": [
+        ["id=loginInputPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#loginInputPassword", "css:finder"],
+        ["xpath=//input[@id='loginInputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "885e04cc-3ced-449c-b931-045c182ee2bf",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginInputPassword",
+      "targets": [
+        ["id=loginInputPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#loginInputPassword", "css:finder"],
+        ["xpath=//input[@id='loginInputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfe5cd1b-1a91-470c-90d6-9d5a06410dfb",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginInputPassword",
+      "targets": [
+        ["id=loginInputPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#loginInputPassword", "css:finder"],
+        ["xpath=//input[@id='loginInputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "558643c9-866a-40d4-9a53-4fd366266500",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-border:nth-child(1)",
+      "targets": [
+        ["css=.btn-border:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='create_customer']/div[6]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CREATE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52705efe-33e2-42d6-b160-1c18066c44f8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.shopify-challenge__button",
+      "targets": [
+        ["css=.shopify-challenge__button", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//div[@id='tt-pageContent']/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "39fac22f-897d-4609-a024-04dcdcce3e28",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d8d658f2-63d4-4317-b9d0-ee93bbe22305"]
+  }],
+  "urls": ["https://sreeleathersonline.com/"],
+  "plugins": []
+}

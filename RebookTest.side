@@ -1,0 +1,176 @@
+{
+  "id": "a9bce928-b2b2-44e2-928e-a218762f0c64",
+  "version": "2.0",
+  "name": "Test",
+  "url": "https://shop4reebok.com",
+  "tests": [{
+    "id": "fc5c7710-db20-44a6-948b-a167c332eac1",
+    "name": "Reebook",
+    "commands": [{
+      "id": "dbcee812-6942-4dc6-9378-76d95fb52ba1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc3d1d6c-a7ed-4a2b-99a5-b98d7641aaeb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x568",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f01b8f2-a7f8-4994-9ce8-9f0aacb6b243",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#SPT3_ATHLEISURE_090921 > .spotlight_banner_txt",
+      "targets": [
+        ["css=#SPT3_ATHLEISURE_090921 > .spotlight_banner_txt", "css:finder"],
+        ["xpath=//a[@id='SPT3_ATHLEISURE_090921']/h3", "xpath:idRelative"],
+        ["xpath=//div[3]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'ATHLEISURE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f87ea33-dd5d-4944-8b2e-4547d087c84d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#SPT3_ATHLEISURE_090921 > .spotlight_banner_txt",
+      "targets": [
+        ["css=#SPT3_ATHLEISURE_090921 > .spotlight_banner_txt", "css:finder"],
+        ["xpath=//a[@id='SPT3_ATHLEISURE_090921']/h3", "xpath:idRelative"],
+        ["xpath=//div[3]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'ATHLEISURE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c0c90ca-1dfa-4daa-ae1a-a1892232d8cb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#H1_Diwali_041121 img",
+      "targets": [
+        ["css=#H1_Diwali_041121 img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://content.shop4reebok.com/static/hero/Diwali_21oct_To_3nov_Homepage.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='H1_Diwali_041121']/a/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a60c5104-e9ad-4aee-affd-11d5bab96739",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#H1_Diwali_041121 img",
+      "targets": [
+        ["css=#H1_Diwali_041121 img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://content.shop4reebok.com/static/hero/Diwali_21oct_To_3nov_Homepage.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='H1_Diwali_041121']/a/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d63912fc-103b-452a-9c44-06249ec62dd6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LOGIN",
+      "targets": [
+        ["linkText=LOGIN", "linkText"],
+        ["css=.header-1-tab > a", "css:finder"],
+        ["xpath=//a[contains(text(),'LOGIN')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/div[2]/div/span[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/reebok/account/showAccount.do')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'LOGIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a47bad4-428c-43df-b9bb-76cb2d7fc0af",
+      "comment": "",
+      "command": "click",
+      "target": "id=usrName",
+      "targets": [
+        ["id=usrName", "id"],
+        ["css=#usrName", "css:finder"],
+        ["xpath=//input[@id='usrName']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd80206b-b6d3-48bd-9cd0-42247f161980",
+      "comment": "",
+      "command": "type",
+      "target": "id=usrName",
+      "targets": [
+        ["id=usrName", "id"],
+        ["css=#usrName", "css:finder"],
+        ["xpath=//input[@id='usrName']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Test@gmail.com"
+    }, {
+      "id": "fbcf8446-56fd-433a-a785-95b415859c39",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=.col-md-offset-control-group #password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "781a58e7-8720-4214-853f-4827c2b44f98",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=.col-md-offset-control-group #password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "7e955932-ee5e-4756-8de0-d51603ac9a35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.doLogin:nth-child(2)",
+      "targets": [
+        ["css=.doLogin:nth-child(2)", "css:finder"],
+        ["xpath=//button[@name='evenlogin']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ebaaaca-3201-486a-a2b5-a36e652d6c5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.doLogin:nth-child(2)",
+      "targets": [
+        ["css=.doLogin:nth-child(2)", "css:finder"],
+        ["xpath=//button[@name='evenlogin']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "414f5f03-ebb4-4c64-ab9c-7dfc2b8acbee",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fc5c7710-db20-44a6-948b-a167c332eac1"]
+  }],
+  "urls": ["https://shop4reebok.com/"],
+  "plugins": []
+}

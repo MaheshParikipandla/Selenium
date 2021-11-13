@@ -1,0 +1,9 @@
+https://www.codejava.net/frameworks/spring-boot/user-registration-and-login-tutorial
+
+https://www.youtube.com/watch?v=avIQEyG3U88
+
+
+//login
+https://github.com/vikash-kohimam99/MyApplication--SpringBoot-Login-and-Registration-youtube
+
+https://github.com/sureshhsrinivas/Web-Program/blob/main/ElectroShop.zip

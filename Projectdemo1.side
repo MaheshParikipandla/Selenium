@@ -1,0 +1,163 @@
+{
+  "id": "95587133-0053-4205-9607-8c92a81b00a4",
+  "version": "2.0",
+  "name": "Projectdemo",
+  "url": "https://sreeleathersonline.com",
+  "tests": [{
+    "id": "0ce6b1a6-e66b-4dc2-8cc7-444b798bec0d",
+    "name": "display",
+    "commands": [{
+      "id": "6058dd76-3da8-4078-9df2-6ead49d72c42",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1785e4a-9748-4936-a0d7-c51a3f8f9df6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "640x568",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "434e8519-dd51-4d8a-a840-1b81e5c3d96f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tt-menu-toggle path",
+      "targets": [
+        ["css=.tt-menu-toggle path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c93daae3-0ac3-4c72-a3a9-89f443212da2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Mens Footwear",
+      "targets": [
+        ["linkText=Mens Footwear", "linkText"],
+        ["css=li:nth-child(2) > .mm-next-level", "css:finder"],
+        ["xpath=//a[contains(text(),'Mens Footwear')]", "xpath:link"],
+        ["xpath=//div[@id='mm0']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#mm1')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mens Footwear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1664909c-a1a9-437e-a456-4a317fcec47f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Mens Footwear",
+      "targets": [
+        ["linkText=Mens Footwear", "linkText"],
+        ["css=li:nth-child(2) > .mm-next-level", "css:finder"],
+        ["xpath=//a[contains(text(),'Mens Footwear')]", "xpath:link"],
+        ["xpath=//div[@id='mm0']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#mm1')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mens Footwear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f77beed2-23f0-4fd1-941f-435377d0ae19",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Close",
+      "targets": [
+        ["linkText=Close", "linkText"],
+        ["css=.mm-close", "css:finder"],
+        ["xpath=//a[contains(text(),'Close')]", "xpath:link"],
+        ["xpath=//div[@id='mm0']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#close')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd27ab7a-fa37-4096-9112-330779ddf529",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Close",
+      "targets": [
+        ["linkText=Close", "linkText"],
+        ["css=.mm-close", "css:finder"],
+        ["xpath=//a[contains(text(),'Close')]", "xpath:link"],
+        ["xpath=//div[@id='mm0']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#close')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "021d3812-2bb3-4058-94d6-d99391bfa48a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tt-search > .tt-dropdown-toggle",
+      "targets": [
+        ["css=.tt-search > .tt-dropdown-toggle", "css:finder"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div/div/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25a366ee-b73f-4c6a-98a5-cf75e860fccf",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.tt-search-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div/div/div/div[3]/div/div/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d423d7a0-74f8-4fdc-84b0-588b26342690",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.tt-search-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div/div/div/div[3]/div/div/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "mens foot wear"
+    }, {
+      "id": "1a343817-9bb6-493c-bcd1-e2760d705808",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.tt-search-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div/div/div/div[3]/div/div/div/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c9b11081-ed6e-4076-ad89-a2596a8725b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tt-menu-toggle path",
+      "targets": [
+        ["css=.tt-menu-toggle path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9ddc9660-017c-44fb-8a96-9ab27d2a4864",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0ce6b1a6-e66b-4dc2-8cc7-444b798bec0d"]
+  }],
+  "urls": ["https://sreeleathersonline.com/"],
+  "plugins": []
+}
